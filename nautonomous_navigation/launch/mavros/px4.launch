@@ -1,0 +1,23 @@
+<launch>
+<!--IMU and RC-->
+	<arg name="log" default="false"/>
+
+	<arg name="px4_fcu_url" default="/dev/pixhawk:57600" />
+	<arg name="px4_gcs_url" default="" />
+	<arg name="px4_tgt_system" default="1" />
+	<arg name="px4_tgt_component" default="1" />
+	<arg name="px4_log_output" default="screen" />
+	<arg name="px4_frame_id" default="pixhawk_frame"/>
+
+	<include file="$(find nautonomous_navigation)/launch/mavros/mavros_node.launch">
+		<arg name="pluginlists_yaml" value="$(find nautonomous_navigation)/launch/mavros/pluginlists.yaml" />
+		<arg name="config_yaml" value="$(find nautonomous_navigation)/launch/mavros/config.yaml" />
+		<arg name="fcu_url" value="$(arg px4_fcu_url)" />
+		<arg name="gcs_url" value="$(arg px4_gcs_url)" />
+		<arg name="tgt_system" value="$(arg px4_tgt_system)" />
+		<arg name="tgt_component" value="$(arg px4_tgt_component)" />
+		<arg name="log_output" value="$(arg px4_log_output)" />
+	</include>
+
+	<node pkg="rosbag" type="record" name="rosbag_px4" args="record -o /media/NautonomousBlackBox/bags/IMU/px4_imu /mavros/data/imu" output="screen" if="$(arg log)"/>
+</launch>

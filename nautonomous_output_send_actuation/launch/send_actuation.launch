@@ -1,0 +1,9 @@
+<launch>
+	  <arg name="log" default="false"/>
+
+	<node name="send_actuation" pkg="nautonomous_output_send_actuation" type="command_actuation" output="screen">
+	</node>
+
+	
+<node pkg="rosbag" type="record" name="rosbag_output_send" args="record -o /media/NautonomousBlackBox/bags/Output/send /multiplexed_propulsion" output="screen" if="$(arg log)"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="nautonomous_output_send_actuation" type="command_actuation" name="command_actuation" output="screen"/>
+
+</launch>

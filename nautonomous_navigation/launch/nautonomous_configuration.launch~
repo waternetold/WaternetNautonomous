@@ -1,0 +1,58 @@
+<launch>
+
+	<arg name="simulate" value="false"/>
+	<arg name="routing" value="true"/>
+	<arg name="logging" value="false"/>
+	<arg name="camera" value="true"/>
+	<!--sensors-->
+	<include file="$(find nautonomous_navigation)/launch/mavros/px4.launch" unless="$(arg simulate)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+	<include file="$(find nautonomous_zed)/launch/zed.launch" if="$(arg camera)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+	<include file="$(find ublox_gps)/launch/ublox_gps_papaverweg.launch" unless="$(arg simulate)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+
+
+	<!-- ODOM-->   
+	<include file="$(find nautonomous_navigation)/launch/pose/ekf_with_gps.launch">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+
+
+	<!-- TF-->
+	<include file="$(find nautonomous_navigation)/launch/map/map_papaverweg.launch">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+	<include file="$(find nautonomous_tf)/launch/nautonomous_tf.launch">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+
+	<include file="$(find nautonomous_operation_action_client)/launch/action_client.launch" if="$(arg routing)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+	<include file="$(find nautonomous_output_operator_lowlevel)/launch/operator_lowlevel.launch">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+	<include file="$(find nautonomous_output_selector_multiplexer)/launch/output_multiplexer.launch">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+	//output
+	<include file="$(find nautonomous_propulsion_sim)/launch/propulsion_sim.launch" if="$(arg simulate)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+	<include file="$(find nautonomous_output_send_actuation)/launch/send_actuation.launch" unless="$(arg simulate)">
+		<arg name="log" value="$(arg logging)" />
+	</include>
+
+	<node name="rviz_visualizer" pkg="rviz" type="rviz" if="$(arg simulate)"/>
+
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+  <node name="costmap_node" pkg="costmap_2d" type="costmap_2d_node" output="screen" >
+    <rosparam file="$(find nautonomous_navigation)/launch/costmap/test_config_costmap.yaml" command="load" ns="costmap" />
+    <!--<remap from="base_scan" to="scan"/>-->
+  </node>
+</launch>

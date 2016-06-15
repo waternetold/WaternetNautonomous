@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/ROS/nautonomous/ZED_ws2/src/zed-ros-wrapper/devel/setup.sh

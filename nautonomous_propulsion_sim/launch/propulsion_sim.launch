@@ -1,0 +1,6 @@
+<launch>
+	  <arg name="log" default="false"/>
+
+	<node name="propulsion_sim" pkg="nautonomous_propulsion_sim" type="nautonomous_propulsion_sim" output="screen">
+	</node>
+</launch>

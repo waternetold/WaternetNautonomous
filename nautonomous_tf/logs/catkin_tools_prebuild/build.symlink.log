@@ -1,0 +1,8 @@
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/./env.sh
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/./setup.zsh
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/./setup.bash
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/./_setup_util.py
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/./setup.sh
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

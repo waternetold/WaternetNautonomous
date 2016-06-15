@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="nautonomous_output_send_actuation" type="command_actuation" name="command_actuation" output="screen"/>
+
+
+	<node pkg="rosbag" type="record" name="rosbag_output_actuation"
+       args="record -o /media/NautonomousBlackBox/bags/Output/actuation " output="screen" if="$(arg nautonomous_bag)"/>
+</launch>
