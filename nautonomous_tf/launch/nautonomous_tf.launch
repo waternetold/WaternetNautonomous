@@ -1,6 +1,0 @@
-<launch>
- 	<arg name="log" default="false"/>
-
-	<node name="nautonomous_tf" pkg="nautonomous_tf" type="nautonomous_tf_broadcaster"/>
-
-</launch>

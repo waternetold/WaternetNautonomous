@@ -1,3 +1,0 @@
-<launch>
-	<node name="bluetooth_manager" pkg="nautonomous_cooperation_bluetooth_node" type="bluetooth_manager" respawn="true" output="screen"/>
-</launch>

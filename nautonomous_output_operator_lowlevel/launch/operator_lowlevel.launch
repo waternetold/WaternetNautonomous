@@ -1,7 +1,0 @@
-<launch>
-
-	  <arg name="log" default="false"/>
-	<node name="operator_lowlevel" pkg="nautonomous_output_operator_lowlevel" type="operator_lowlevel" output="screen"/>
-
-<node pkg="rosbag" type="record" name="rosbag_operator_lowlevel" args="record -o /media/NautonomousBlackBox/bags/Operator/lowlevel /mavros/rc/in /manual_propulsion " output="screen" if="$(arg log)"/>
-</launch>

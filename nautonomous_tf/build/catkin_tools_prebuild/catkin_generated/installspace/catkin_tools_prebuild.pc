@@ -1,8 +1,0 @@
-prefix=/home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/install
-
-Name: catkin_tools_prebuild
-Description: Description of catkin_tools_prebuild
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/install/lib 
-Requires: 

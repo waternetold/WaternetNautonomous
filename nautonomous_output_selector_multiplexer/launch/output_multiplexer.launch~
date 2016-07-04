@@ -1,7 +1,0 @@
-<launch>
-	  <arg name="log" default="false"/>
-
-	<node name="output_multiplexer" pkg="nautonomous_output_selector_multiplexer" type="output_multiplexer" output="screen"/>
-
-<node pkg="rosbag" type="record" name="rosbag_output_multiplexer" args="record -o /media/NautonomousBlackBox/bags/Output/multiplexer /manual_propulsion /autonomous_propulsion /multiplexed_propulsion" output="screen" if="$(arg log)"/>
-</launch>

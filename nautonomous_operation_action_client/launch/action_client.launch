@@ -1,7 +1,0 @@
-<launch>
-	  <arg name="log" default="false"/>
-
-	<node name="action_operation_manager" pkg="nautonomous_operation_action_client" type="operation_manager" output="screen"/>
-
-
-</launch>

@@ -1,8 +1,0 @@
-<launch>
-	<node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
-		<remap from="cmd_vel" to="bluetooth_operator"/>
-	</node>
-
-	<node name="bluetooth_manager" pkg="nautonomous_cooperation_bluetooth_node" type="bluetooth_manager" output="screen"/>
-
-</launch>

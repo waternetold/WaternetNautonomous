@@ -1,6 +1,0 @@
-devel_space: /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/devel
-install: false
-install_space: /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/install
-profile: default
-source_space: /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf/src
-workspace: /home/zeeuwe01/ROBOT_ws/src/nautonomous_tf
