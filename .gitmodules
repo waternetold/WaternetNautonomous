@@ -1,6 +1,3 @@
-[submodule "WaternetNautonomousVision"]
-	path = WaternetNautonomousVision
-	url = git@github.com:DaanZ/WaternetNautonomousVision.git
 [submodule "WaternetNautonomousOperator"]
 	path = WaternetNautonomousOperator
 	url = git@github.com:DaanZ/WaternetNautonomousOperator.git
