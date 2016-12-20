@@ -1,21 +1,21 @@
 [submodule "WaternetNautonomousOperator"]
 	path = WaternetNautonomousOperator
-	url = git@github.com:DaanZ/WaternetNautonomousOperator.git
+	url = ./WaternetNautonomousOperator
 [submodule "WaternetNautonomousOperation"]
 	path = WaternetNautonomousOperation
-	url = git@github.com:DaanZ/WaternetNautonomousOperation.git
+	url = ./WaternetNautonomousOperation
 [submodule "WaternetNautonomousNavigation"]
 	path = WaternetNautonomousNavigation
-	url = git@github.com:DaanZ/WaternetNautonomousNavigation.git
+	url = ./WaternetNautonomousNavigation
 [submodule "WaternetNautonomousMachineLearning"]
 	path = WaternetNautonomousMachineLearning
-	url = git@github.com:DaanZ/WaternetNautonomousMachineLearning.git
+	url = ./WaternetNautonomousMachineLearning
 [submodule "WaternetNautonomousActuation"]
 	path = WaternetNautonomousActuation
-	url = git@github.com:DaanZ/WaternetNautonomousActuation.git
+	url = ./WaternetNautonomousActuation
 [submodule "WaternetNautonomousCollaboration"]
 	path = WaternetNautonomousCollaboration
-	url = git@github.com:DaanZ/WaternetNautonomousCollaboration.git
+	url = ./WaternetNautonomousCollaboration
 [submodule "WaternetNautonomousVision"]
 	path = WaternetNautonomousVision
 	url = ./WaternetNautonomousVision
