@@ -16,3 +16,6 @@
 [submodule "WaternetNautonomousCollaboration"]
 	path = WaternetNautonomousCollaboration
 	url = git@github.com:DaanZ/WaternetNautonomousCollaboration.git
+[submodule "WaternetNautonomousVision"]
+	path = WaternetNautonomousVision
+	url = ./WaternetNautonomousVision
