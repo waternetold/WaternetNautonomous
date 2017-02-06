@@ -1,3 +1,7 @@
 [submodule "src/nautonomous_actuation_selector"]
 	path = src/nautonomous_actuation_selector
 	url = https://github.com/waternet/nautonomous_actuation_selector
+[submodule "src/waternet_submodule_1"]
+	path = src/waternet_submodule_1
+	url = http://github.com/waternet/waternet_submodule_1
+	branch = master
