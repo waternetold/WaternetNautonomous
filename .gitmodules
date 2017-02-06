@@ -1,21 +1,3 @@
-[submodule "WaternetNautonomousOperator"]
-	path = WaternetNautonomousOperator
-	url = ./WaternetNautonomousOperator
-[submodule "WaternetNautonomousOperation"]
-	path = WaternetNautonomousOperation
-	url = ./WaternetNautonomousOperation
-[submodule "WaternetNautonomousNavigation"]
-	path = WaternetNautonomousNavigation
-	url = ./WaternetNautonomousNavigation
-[submodule "WaternetNautonomousMachineLearning"]
-	path = WaternetNautonomousMachineLearning
-	url = ./WaternetNautonomousMachineLearning
-[submodule "WaternetNautonomousActuation"]
-	path = WaternetNautonomousActuation
-	url = ./WaternetNautonomousActuation
-[submodule "WaternetNautonomousCollaboration"]
-	path = WaternetNautonomousCollaboration
-	url = ./WaternetNautonomousCollaboration
-[submodule "WaternetNautonomousVision"]
-	path = WaternetNautonomousVision
-	url = ./WaternetNautonomousVision
+[submodule "src/nautonomous_actuation_selector"]
+	path = src/nautonomous_actuation_selector
+	url = https://github.com/waternet/nautonomous_actuation_selector
