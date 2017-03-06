@@ -26,3 +26,7 @@
 	path = src/nautonomous_operation_action
 	url = git@github.com:waternet/nautonomous_operation_action.git
 	branch = master
+[submodule "src/nautonomous_actuation_selector"]
+	path = src/nautonomous_actuation_selector
+	url = git@github.com:waternet/nautonomous_actuation_selector.git
+	branch = master
