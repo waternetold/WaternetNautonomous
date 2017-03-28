@@ -9,7 +9,7 @@
 [submodule "src/nautonomous_configuration"]
 	path = src/nautonomous_configuration
 	url = git@github.com:waternet/nautonomous_configuration.git
-	branch = master
+	branch = develop_independent_inputs 
 [submodule "src/nautonomous_gps_ublox"]
 	path = src/nautonomous_gps_ublox
 	url = git@github.com:waternet/nautonomous_gps_ublox.git
