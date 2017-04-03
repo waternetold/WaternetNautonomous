@@ -1,0 +1,3 @@
+<launch>
+	<node name="navigator" pkg="nautonomous_navigation_planner" type="navigator.py"  output="screen" />
+</launch>
