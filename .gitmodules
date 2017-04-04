@@ -22,6 +22,7 @@
 	path = src/nautonomous_msgs
 	url = git@github.com:waternet/nautonomous_msgs.git
 	branch = master
+
 [submodule "src/nautonomous_navigation_transform"]
 	path = src/nautonomous_navigation_transform
 	url = git@github.com:waternet/nautonomous_navigation_transform.git
