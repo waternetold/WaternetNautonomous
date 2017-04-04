@@ -1,0 +1,2 @@
+float64 left_motor_input
+float64 right_motor_input
