@@ -18,11 +18,6 @@
 	path = src/nautonomous_navigation_odometry
 	url = git@github.com:waternet/nautonomous_navigation_odometry.git
 	branch = master
-[submodule "src/nautonomous_msgs"]
-	path = src/nautonomous_msgs
-	url = git@github.com:waternet/nautonomous_msgs.git
-	branch = master
-
 [submodule "src/nautonomous_navigation_transform"]
 	path = src/nautonomous_navigation_transform
 	url = git@github.com:waternet/nautonomous_navigation_transform.git
@@ -47,3 +42,6 @@
 [submodule "src/nautonomous_logging_msgs"]
 	path = src/nautonomous_logging_msgs
 	url = git@github.com:waternet/nautonomous_logging_msgs.git
+[submodule "src/nautonomous_msgs"]
+	path = src/nautonomous_msgs
+	url = git@github.com:waternet/nautonomous_msgs.git
