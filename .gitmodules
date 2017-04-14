@@ -39,6 +39,3 @@
 [submodule "src/nautonomous_logging_msgs"]
 	path = src/nautonomous_logging_msgs
 	url = git@github.com:waternet/nautonomous_logging_msgs.git
-[submodule "src/nautonomous_navigation_planner"]
-	path = src/nautonomous_navigation_planner
-	url = git@github.com:waternet/nautonomous_navigation_planner.git
