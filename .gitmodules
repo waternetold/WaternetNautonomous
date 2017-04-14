@@ -30,8 +30,6 @@
 	path = src/nautonomous_actuation_selector
 	url = git@github.com:waternet/nautonomous_actuation_selector.git
 	branch = master
-
-
 [submodule "src/nautonomous_serverconnection_bridge_server"]
 	path = src/nautonomous_serverconnection_bridge_server
 	url = git@github.com:waternet/nautonomous_serverconnection_bridge_server.git
@@ -41,6 +39,6 @@
 [submodule "src/nautonomous_logging_msgs"]
 	path = src/nautonomous_logging_msgs
 	url = git@github.com:waternet/nautonomous_logging_msgs.git
-[submodule "src/nautonomous_navigation_planner"]
-	path = src/nautonomous_navigation_planner
-	url = git@github.com:waternet/nautonomous_navigation_planner.git
+[submodule "src/nautonomous_navigation_pathfinder"]
+	path = src/nautonomous_navigation_pathfinder
+	url = git@github.com:waternet/nautonomous_navigation_pathfinder.git
