@@ -42,3 +42,6 @@
 [submodule "src/nautonomous_navigation_pathfinder"]
 	path = src/nautonomous_navigation_pathfinder
 	url = git@github.com:waternet/nautonomous_navigation_pathfinder.git
+[submodule "src/nautonomous_map_cropper"]
+	path = src/nautonomous_map_cropper
+	url = git@github.com:waternet/nautonomous_map_cropper.git
