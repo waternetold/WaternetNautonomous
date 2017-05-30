@@ -45,3 +45,6 @@
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
 	url = git@github.com:waternet/nautonomous_map_cropper.git
+[submodule "nautonomous_map_server"]
+	path = nautonomous_map_server
+	url = git@github.com:waternet/nautonomous_map_server.git
