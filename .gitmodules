@@ -48,3 +48,6 @@
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
 	url = git@github.com:waternet/nautonomous_map_cropper.git
+[submodule "src/nautonomous_gps_adapter"]
+	path = src/nautonomous_gps_adapter
+	url = git@github.com:waternet/nautonomous_gps_adapter.git
