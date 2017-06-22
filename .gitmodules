@@ -25,7 +25,7 @@
 [submodule "src/nautonomous_operation_action"]
 	path = src/nautonomous_operation_action
 	url = git@github.com:waternet/nautonomous_operation_action.git
-	branch = develop
+	branch = master
 [submodule "src/nautonomous_actuation_selector"]
 	path = src/nautonomous_actuation_selector
 	url = git@github.com:waternet/nautonomous_actuation_selector.git
@@ -38,6 +38,10 @@
 	path = src/nautonomous_logging_msgs
 	url = git@github.com:waternet/nautonomous_logging_msgs.git
 	branch = develop
+[submodule "src/nautonomous_msgs"]
+	path = src/nautonomous_msgs
+	url = git@github.com:waternet/nautonomous_msgs.git
+	branch = develop
 [submodule "src/nautonomous_navigation_pathfinder"]
 	path = src/nautonomous_navigation_pathfinder
 	url = git@github.com:waternet/nautonomous_navigation_pathfinder.git
@@ -45,6 +49,11 @@
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
 	url = git@github.com:waternet/nautonomous_map_cropper.git
+	branch = develop
+[submodule "src/nautonomous_gps_adapter"]
+	path = src/nautonomous_gps_adapter
+	url = git@github.com:waternet/nautonomous_gps_adapter.git
+	branch = develop
 [submodule "src/nautonomous_map_server"]
 	path = src/nautonomous_map_server
 	url = git@github.com:waternet/nautonomous_map_server.git
