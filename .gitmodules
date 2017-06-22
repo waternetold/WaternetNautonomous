@@ -22,17 +22,17 @@
 	path = src/nautonomous_navigation_transform
 	url = git@github.com:waternet/nautonomous_navigation_transform.git
 	branch = develop
-[submodule "src/nautonomous_operation_action"]
-	path = src/nautonomous_operation_action
-	url = git@github.com:waternet/nautonomous_operation_action.git
+[submodule "src/nautonomous_mission_coordinator"]
+	path = src/nautonomous_mission_coordinator
+	url = git@github.com:waternet/nautonomous_mission_coordinator.git
 	branch = master
 [submodule "src/nautonomous_actuation_selector"]
 	path = src/nautonomous_actuation_selector
 	url = git@github.com:waternet/nautonomous_actuation_selector.git
 	branch = develop
-[submodule "src/nautonomous_serverconnection_logger_server"]
-	path = src/nautonomous_serverconnection_logger_server
-	url = git@github.com:waternet/nautonomous_serverconnection_logger_server.git
+[submodule "src/nautonomous_webserver_logging"]
+	path = src/nautonomous_webserver_logging
+	url = git@github.com:waternet/nautonomous_webserver_logging.git
 	branch = develop
 [submodule "src/nautonomous_logging_msgs"]
 	path = src/nautonomous_logging_msgs
@@ -42,9 +42,9 @@
 	path = src/nautonomous_msgs
 	url = git@github.com:waternet/nautonomous_msgs.git
 	branch = develop
-[submodule "src/nautonomous_navigation_pathfinder"]
-	path = src/nautonomous_navigation_pathfinder
-	url = git@github.com:waternet/nautonomous_navigation_pathfinder.git
+[submodule "src/nautonomous_routing_vaarkaart"]
+	path = src/nautonomous_routing_vaarkaart
+	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
 	branch = develop
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
