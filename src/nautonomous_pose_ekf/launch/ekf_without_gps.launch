@@ -1,0 +1,21 @@
+<launch>
+
+    <node pkg="nautonomous_pose_ekf" type="nautonomous_pose_ekf" name="nautonomous_pose_ekf" output="screen">
+        <param name="output_frame" value="odom_combined"/>
+        <param name="base_footprint_frame" value="base_link"/>
+        <param name="freq" value="5.0"/>
+        <param name="debug" value="true"/>
+        <param name="sensor_timeout" value="3.0"/>  
+        <param name="odom_used" value="true"/>
+        <param name="imu_used" value="true"/>
+        <param name="vo_used" value="false"/>
+        <param name="gps_used" value="false"/>
+ 
+        <remap from="imu_data" to="/sensor/imu/razor"/>
+        <remap from="vo" to="/rtabmap/odom" />
+        <remap from="fix" to="/pose/utm/fix" />
+        <remap from="odom" to="/pose/utm/odom" />
+    </node>
+
+</launch>
+
