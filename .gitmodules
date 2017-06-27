@@ -38,10 +38,6 @@
 	path = src/nautonomous_pose_utm
 	url = git@github.com:waternet/nautonomous_pose_utm.git
 	branch = develop
-[submodule "src/nautonomous_propulsion_sabertooth"]
-	path = src/nautonomous_propulsion_sabertooth
-	url = git@github.com:waternet/nautonomous_propulsion_sabertooth.git
-	branch = develop
 [submodule "src/nautonomous_routing_vaarkaart"]
 	path = src/nautonomous_routing_vaarkaart
 	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
@@ -61,4 +57,16 @@
 [submodule "src/nautonomous_webserver_logging"]
 	path = src/nautonomous_webserver_logging
 	url = git@github.com:waternet/nautonomous_webserver_logging.git
+	branch = develop
+[submodule "src/nautonomous_propulsion_differential"]
+	path = src/nautonomous_propulsion_differential
+	url = git@github.com:waternet/nautonomous_propulsion_differential.git
+	branch = develop
+[submodule "src/nautonomous_actuation_propulsion_sabertooth"]
+	path = src/nautonomous_actuation_propulsion_sabertooth
+	url = git@github.com:waternet/nautonomous_actuation_propulsion_sabertooth.git
+	branch = develop
+[submodule "src/nautonomous_propulsion_publisher"]
+	path = src/nautonomous_propulsion_publisher
+	url = git@github.com:waternet/nautonomous_propulsion_publisher.git
 	branch = develop
