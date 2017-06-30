@@ -53,7 +53,7 @@ target_link_libraries(nautonomous_pose_ekf
     ${Boost_LIBRARIES}
     ${BFL_LIBRARIES}
     )
-add_dependencies(nautonomous_pose_ekf nautonomous_pose_ekf_gencpp)
+add_dependencies(nautonomous_pose_ekf nautonomous_pose_ekf_generate_messages_cpp)
 
 install(
     TARGETS
@@ -71,43 +71,43 @@ install(
     DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
-## Tests are failing on OSX for an unknown reason
-include(CMakeDetermineSystem)
-if(CMAKE_SYSTEM_NAME MATCHES "Linux")
-if(CATKIN_ENABLE_TESTING)
+# ## Tests are failing on OSX for an unknown reason
+# include(CMakeDetermineSystem)
+# if(CMAKE_SYSTEM_NAME MATCHES "Linux")
+# if(CATKIN_ENABLE_TESTING)
 
-catkin_download_test_data(
-  download_data_ekf_test2_indexed.bag
-  http://download.ros.org/data/nautonomous_pose_ekf/ekf_test2_indexed.bag
-  DESTINATION ${CATKIN_DEVEL_PREFIX}/${CATKIN_PACKAGE_SHARE_DESTINATION}/test
-  MD5 71addef0ed900e05b301e0b4fdca99e2
-)
-add_executable(test_robot_pose_ekf test/test_robot_pose_ekf.cpp)
-target_link_libraries(test_robot_pose_ekf
-    ${Boost_LIBRARIES}
-    ${catkin_LIBRARIES}
-    ${BFL_LIBRARIES}
-    gtest
-    )
+# catkin_download_test_data(
+#   download_data_ekf_test2_indexed.bag
+#   http://download.ros.org/data/nautonomous_pose_ekf/ekf_test2_indexed.bag
+#   DESTINATION ${CATKIN_DEVEL_PREFIX}/${CATKIN_PACKAGE_SHARE_DESTINATION}/test
+#   MD5 71addef0ed900e05b301e0b4fdca99e2
+# )
+# add_executable(test_nautonomous_pose_ekf test/test_nautonomous_pose_ekf.cpp)
+# target_link_libraries(test_nautonomous_pose_ekf
+#     ${Boost_LIBRARIES}
+#     ${catkin_LIBRARIES}
+#     ${BFL_LIBRARIES}
+#     gtest
+#     )
 
-catkin_download_test_data(
-  download_data_zero_covariance.bag
-  http://download.ros.org/data/robot_pose_ekf/zero_covariance_indexed.bag
-  DESTINATION ${CATKIN_DEVEL_PREFIX}/${CATKIN_PACKAGE_SHARE_DESTINATION}/test
-  MD5 1f1f4e361a9e0b0f6b1379b2dd011088
-)
-add_executable(test_robot_pose_ekf_zero_covariance test/test_robot_pose_ekf_zero_covariance.cpp)
-target_link_libraries(test_robot_pose_ekf_zero_covariance
-    ${Boost_LIBRARIES}
-    ${catkin_LIBRARIES}
-    ${BFL_LIBRARIES}
-    gtest
-    )
+# catkin_download_test_data(
+#   download_data_zero_covariance.bag
+#   http://download.ros.org/data/nautonomous_pose_ekf/zero_covariance_indexed.bag
+#   DESTINATION ${CATKIN_DEVEL_PREFIX}/${CATKIN_PACKAGE_SHARE_DESTINATION}/test
+#   MD5 1f1f4e361a9e0b0f6b1379b2dd011088
+# )
+# add_executable(test_nautonomous_pose_ekf_zero_covariance test/test_nautonomous_pose_ekf_zero_covariance.cpp)
+# target_link_libraries(test_nautonomous_pose_ekf_zero_covariance
+#     ${Boost_LIBRARIES}
+#     ${catkin_LIBRARIES}
+#     ${BFL_LIBRARIES}
+#     gtest
+#     )
 
-# This has to be done after we've already built targets, or catkin variables get borked
-find_package(rostest)
-add_rostest(${CMAKE_CURRENT_SOURCE_DIR}/test/test_robot_pose_ekf.launch)
-add_rostest(${CMAKE_CURRENT_SOURCE_DIR}/test/test_robot_pose_ekf_zero_covariance.launch)
+# # This has to be done after we've already built targets, or catkin variables get borked
+# find_package(rostest)
+# add_rostest(${CMAKE_CURRENT_SOURCE_DIR}/test/test_nautonomous_pose_ekf.launch)
+# add_rostest(${CMAKE_CURRENT_SOURCE_DIR}/test/test_nautonomous_pose_ekf_zero_covariance.launch)
 
-endif(CATKIN_ENABLE_TESTING)
-endif(CMAKE_SYSTEM_NAME MATCHES "Linux")
+# endif(CATKIN_ENABLE_TESTING)
+# endif(CMAKE_SYSTEM_NAME MATCHES "Linux")

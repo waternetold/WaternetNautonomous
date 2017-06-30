@@ -42,14 +42,6 @@
 	path = src/nautonomous_routing_vaarkaart
 	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
 	branch = develop
-[submodule "src/nautonomous_sensor_gps"]
-	path = src/nautonomous_sensor_gps
-	url = git@github.com:waternet/nautonomous_sensor_gps.git
-	branch = develop
-[submodule "src/nautonomous_sensor_imu"]
-	path = src/nautonomous_sensor_imu
-	url = git@github.com:waternet/nautonomous_sensor_imu.git
-	branch = develop
 [submodule "src/nautonomous_tf"]
 	path = src/nautonomous_tf
 	url = git@github.com:waternet/nautonomous_tf.git
@@ -69,4 +61,12 @@
 [submodule "src/nautonomous_propulsion_publisher"]
 	path = src/nautonomous_propulsion_publisher
 	url = git@github.com:waternet/nautonomous_propulsion_publisher.git
+	branch = develop
+[submodule "src/nautonomous_sensor_imu_razor"]
+	path = src/nautonomous_sensor_imu_razor
+	url = git@github.com:waternet/nautonomous_sensor_imu_razor.git
+	branch = develop
+[submodule "src/nautonomous_sensor_gps_ublox"]
+	path = src/nautonomous_sensor_gps_ublox
+	url = git@github.com:waternet/nautonomous_sensor_gps_ublox.git
 	branch = develop
