@@ -10,19 +10,19 @@
     <node pkg="nautonomous_pose_ekf" type="nautonomous_pose_ekf" name="nautonomous_pose_ekf" output="screen">
         <param name="output_frame" value="odom"/>
         <param name="base_footprint_frame" value="base_link"/>
-        <param name="freq" value="5.0"/>
+        <param name="freq" value="10.0"/>
         <param name="debug" value="true"/>
         <param name="sensor_timeout" value="3.0"/>  
         <param name="odom_used" value="false"/>
         <param name="imu_used" value="true"/>
         <param name="vo_used" value="false"/>
-        <param name="utm_used" value="true"/>
+        <param name="gps_used" value="true"/>
  
         <remap from="imu_topic" to="$(arg imu_topic)"/>
         <!--remap from="vo_topic" to="/rtabmap/odom" /-->
-        <remap from="utm_odom_topic" to="$(arg utm_odom_topic)" />
+        <remap from="gps_odom_topic" to="$(arg utm_odom_topic)" />
         <!--remap from="odom" to="/state/odom/utm" /-->
-        <remap from="odom_combined_topic" to="$(arg odom_combined_topic)"/>
+        <remap from="/nautonomous_pose_ekf/odom_combined_topic" to="$(arg odom_combined_topic)"/>
     </node>
 
 	<node pkg="rosbag" type="record" name="rosbag_pose_ekf" args="record -o $(arg rosbag_prefix_url)/pose/ekf $(arg imu_topic) $(arg utm_odom_topic) $(arg odom_combined_topic)" output="screen" if="$(arg rosbag_enabled)"/>
