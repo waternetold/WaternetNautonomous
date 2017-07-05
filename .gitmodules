@@ -1,22 +1,14 @@
-[submodule "src/nautonomous_actuation_simulator"]
-	path = src/nautonomous_actuation_simulator
-	url = git@github.com:waternet/nautonomous_actuation_simulator.git
-	branch = master
-[submodule "src/nautonomous_actuation_synchronizer"]
-	path = src/nautonomous_actuation_synchronizer
-	url = git@github.com:waternet/nautonomous_actuation_synchronizer.git
+[submodule "src/nautonomous_actuation_propulsion_sabertooth"]
+	path = src/nautonomous_actuation_propulsion_sabertooth
+	url = git@github.com:waternet/nautonomous_actuation_propulsion_sabertooth.git
 	branch = master
 [submodule "src/nautonomous_configuration"]
 	path = src/nautonomous_configuration
 	url = git@github.com:waternet/nautonomous_configuration.git
 	branch = master
-[submodule "src/nautonomous_gps_ublox"]
-	path = src/nautonomous_gps_ublox
-	url = git@github.com:waternet/nautonomous_gps_ublox.git
-	branch = master
-[submodule "src/nautonomous_gps_adapter"]
-	path = src/nautonomous_gps_adapter
-	url = git@github.com:waternet/nautonomous_gps_adapter.git
+[submodule "src/nautonomous_launch"]
+	path = src/nautonomous_launch
+	url = git@github.com:waternet/nautonomous_launch.git
 	branch = master
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
@@ -26,35 +18,51 @@
 	path = src/nautonomous_map_server
 	url = git@github.com:waternet/nautonomous_map_server.git
 	branch = master
+[submodule "src/nautonomous_mission_coordinator"]
+	path = src/nautonomous_mission_coordinator
+	url = git@github.com:waternet/nautonomous_mission_coordinator.git
+	branch = master
 [submodule "src/nautonomous_msgs"]
 	path = src/nautonomous_msgs
 	url = git@github.com:waternet/nautonomous_msgs.git
 	branch = master
-[submodule "src/nautonomous_navigation_odometry"]
-	path = src/nautonomous_navigation_odometry
-	url = git@github.com:waternet/nautonomous_navigation_odometry.git
+[submodule "src/nautonomous_pose_odom"]
+	path = src/nautonomous_pose_odom
+	url = git@github.com:waternet/nautonomous_pose_odom.git
 	branch = master
-[submodule "src/nautonomous_navigation_pathfinder"]
-	path = src/nautonomous_navigation_pathfinder
-	url = git@github.com:waternet/nautonomous_navigation_pathfinder.git
+[submodule "src/nautonomous_pose_simulator"]
+	path = src/nautonomous_pose_simulator
+	url = git@github.com:waternet/nautonomous_pose_simulator.git
 	branch = master
-[submodule "src/nautonomous_navigation_transform"]
-	path = src/nautonomous_navigation_transform
-	url = git@github.com:waternet/nautonomous_navigation_transform.git
+[submodule "src/nautonomous_pose_utm"]
+	path = src/nautonomous_pose_utm
+	url = git@github.com:waternet/nautonomous_pose_utm.git
 	branch = master
-[submodule "src/nautonomous_operation_action"]
-	path = src/nautonomous_operation_action
-	url = git@github.com:waternet/nautonomous_operation_action.git
+[submodule "src/nautonomous_propulsion_differential"]
+	path = src/nautonomous_propulsion_differential
+	url = git@github.com:waternet/nautonomous_propulsion_differential.git
 	branch = master
-[submodule "src/nautonomous_actuation_selector"]
-	path = src/nautonomous_actuation_selector
-	url = git@github.com:waternet/nautonomous_actuation_selector.git
+[submodule "src/nautonomous_propulsion_publisher"]
+	path = src/nautonomous_propulsion_publisher
+	url = git@github.com:waternet/nautonomous_propulsion_publisher.git
 	branch = master
-[submodule "src/nautonomous_serverconnection_logger_server"]
-	path = src/nautonomous_serverconnection_logger_server
-	url = git@github.com:waternet/nautonomous_serverconnection_logger_server.git
+[submodule "src/nautonomous_routing_vaarkaart"]
+	path = src/nautonomous_routing_vaarkaart
+	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
 	branch = master
-[submodule "src/nautonomous_logging_msgs"]
-	path = src/nautonomous_logging_msgs
-	url = git@github.com:waternet/nautonomous_logging_msgs.git
+[submodule "src/nautonomous_sensor_gps_ublox"]
+	path = src/nautonomous_sensor_gps_ublox
+	url = git@github.com:waternet/nautonomous_sensor_gps_ublox.git
+	branch = master
+[submodule "src/nautonomous_sensor_imu_razor"]
+	path = src/nautonomous_sensor_imu_razor
+	url = git@github.com:waternet/nautonomous_sensor_imu_razor.git
+	branch = master
+[submodule "src/nautonomous_tf"]
+	path = src/nautonomous_tf
+	url = git@github.com:waternet/nautonomous_tf.git
+	branch = master
+[submodule "src/nautonomous_webserver_logging"]
+	path = src/nautonomous_webserver_logging
+	url = git@github.com:waternet/nautonomous_webserver_logging.git
 	branch = master
