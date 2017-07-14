@@ -70,3 +70,6 @@
 	path = src/nautonomous_sensor_gps_ublox
 	url = git@github.com:waternet/nautonomous_sensor_gps_ublox.git
 	branch = develop
+[submodule "src/nautonomous_sensor_scan_velodyne"]
+	path = src/nautonomous_sensor_scan_velodyne
+	url = https://github.com/KumarRobotics/velodyne_puck.git
