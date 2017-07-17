@@ -50,19 +50,19 @@
 	path = src/nautonomous_routing_vaarkaart
 	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
 	branch = master
-[submodule "src/nautonomous_sensor_gps_ublox"]
-	path = src/nautonomous_sensor_gps_ublox
-	url = git@github.com:waternet/nautonomous_sensor_gps_ublox.git
-	branch = master
-[submodule "src/nautonomous_sensor_imu_razor"]
-	path = src/nautonomous_sensor_imu_razor
-	url = git@github.com:waternet/nautonomous_sensor_imu_razor.git
-	branch = master
-[submodule "src/nautonomous_tf"]
-	path = src/nautonomous_tf
-	url = git@github.com:waternet/nautonomous_tf.git
-	branch = master
 [submodule "src/nautonomous_webserver_logging"]
 	path = src/nautonomous_webserver_logging
 	url = git@github.com:waternet/nautonomous_webserver_logging.git
 	branch = master
+[submodule "src/nautonomous_sensor_ublox_gps"]
+	path = src/nautonomous_sensor_ublox_gps
+	url = git@github.com:KumarRobotics/ublox.git
+[submodule "src/nautonomous_sensor_imu_razor"]
+	path = src/nautonomous_sensor_imu_razor
+	url = https://github.com/KristofRobot/razor_imu_9dof
+[submodule "src/rosbridge_suite"]
+	path = src/rosbridge_suite
+	url = git@github.com:RobotWebTools/rosbridge_suite.git
+[submodule "src/nautonomous_navigation_planner_global"]
+	path = src/nautonomous_navigation_planner_global
+	url = git@github.com:waternet/nautonomous_navigation_planner_global.git
