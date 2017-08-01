@@ -73,3 +73,6 @@
 [submodule "src/nautonomous_sensor_scan_velodyne"]
 	path = src/nautonomous_sensor_scan_velodyne
 	url = https://github.com/KumarRobotics/velodyne_puck.git
+[submodule "src/nautonomous_msgs_authentication"]
+	path = src/nautonomous_msgs_authentication
+	url = git@github.com:waternet/nautonomous_msgs_authentication
