@@ -38,10 +38,6 @@
 	path = src/nautonomous_routing_vaarkaart
 	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
 	branch = develop
-[submodule "src/nautonomous_tf"]
-	path = src/nautonomous_tf
-	url = git@github.com:waternet/nautonomous_tf.git
-	branch = develop
 [submodule "src/nautonomous_webserver_logging"]
 	path = src/nautonomous_webserver_logging
 	url = git@github.com:waternet/nautonomous_webserver_logging.git
@@ -62,10 +58,15 @@
 	path = src/nautonomous_sensor_imu_razor
 	url = git@github.com:waternet/nautonomous_sensor_imu_razor.git
 	branch = develop
-[submodule "src/nautonomous_sensor_gps_ublox"]
-	path = src/nautonomous_sensor_gps_ublox
-	url = git@github.com:waternet/nautonomous_sensor_gps_ublox.git
-	branch = develop
 [submodule "src/nautonomous_sensor_scan_velodyne"]
 	path = src/nautonomous_sensor_scan_velodyne
 	url = https://github.com/KumarRobotics/velodyne_puck.git
+[submodule "src/nautonomous_sensor_gps_ublox"]
+	path = src/nautonomous_sensor_gps_ublox
+	url = git@github.com:KumarRobotics/ublox.git
+[submodule "src/nautonomous_graph_vaarkaart"]
+	path = src/nautonomous_graph_vaarkaart
+	url = git@github.com:DaanZ/nautonomous_graph_vaarkaart.git
+[submodule "src/nautonomous_search_astar"]
+	path = src/nautonomous_search_astar
+	url = https://github.com/waternet/nautonomous_search_astar.git
