@@ -70,3 +70,6 @@
 [submodule "src/nautonomous_search_astar"]
 	path = src/nautonomous_search_astar
 	url = https://github.com/waternet/nautonomous_search_astar.git
+[submodule "src/nautonomous_msgs_authentication"]
+	path = src/nautonomous_msgs_authentication
+	url = git@github.com:waternet/nautonomous_msgs_authentication
