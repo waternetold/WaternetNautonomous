@@ -1,65 +1,76 @@
-[submodule "src/nautonomous_actuation_propulsion_sabertooth"]
-	path = src/nautonomous_actuation_propulsion_sabertooth
-	url = git@github.com:waternet/nautonomous_actuation_propulsion_sabertooth.git
-	branch = master
 [submodule "src/nautonomous_configuration"]
 	path = src/nautonomous_configuration
 	url = git@github.com:waternet/nautonomous_configuration.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_launch"]
 	path = src/nautonomous_launch
 	url = git@github.com:waternet/nautonomous_launch.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_map_cropper"]
 	path = src/nautonomous_map_cropper
 	url = git@github.com:waternet/nautonomous_map_cropper.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_map_server"]
 	path = src/nautonomous_map_server
 	url = git@github.com:waternet/nautonomous_map_server.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_mission_coordinator"]
 	path = src/nautonomous_mission_coordinator
 	url = git@github.com:waternet/nautonomous_mission_coordinator.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_msgs"]
 	path = src/nautonomous_msgs
 	url = git@github.com:waternet/nautonomous_msgs.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_pose_odom"]
 	path = src/nautonomous_pose_odom
 	url = git@github.com:waternet/nautonomous_pose_odom.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_pose_simulator"]
 	path = src/nautonomous_pose_simulator
 	url = git@github.com:waternet/nautonomous_pose_simulator.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_pose_utm"]
 	path = src/nautonomous_pose_utm
 	url = git@github.com:waternet/nautonomous_pose_utm.git
-	branch = master
-[submodule "src/nautonomous_propulsion_differential"]
-	path = src/nautonomous_propulsion_differential
-	url = git@github.com:waternet/nautonomous_propulsion_differential.git
-	branch = master
-[submodule "src/nautonomous_propulsion_publisher"]
-	path = src/nautonomous_propulsion_publisher
-	url = git@github.com:waternet/nautonomous_propulsion_publisher.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_routing_vaarkaart"]
 	path = src/nautonomous_routing_vaarkaart
 	url = git@github.com:waternet/nautonomous_routing_vaarkaart.git
-	branch = master
+	branch = develop
 [submodule "src/nautonomous_webserver_logging"]
 	path = src/nautonomous_webserver_logging
 	url = git@github.com:waternet/nautonomous_webserver_logging.git
-	branch = master
+	branch = develop
+[submodule "src/nautonomous_propulsion_differential"]
+	path = src/nautonomous_propulsion_differential
+	url = git@github.com:waternet/nautonomous_propulsion_differential.git
+	branch = develop
+[submodule "src/nautonomous_actuation_propulsion_sabertooth"]
+	path = src/nautonomous_actuation_propulsion_sabertooth
+	url = git@github.com:waternet/nautonomous_actuation_propulsion_sabertooth.git
+	branch = develop
+[submodule "src/nautonomous_propulsion_publisher"]
+	path = src/nautonomous_propulsion_publisher
+	url = git@github.com:waternet/nautonomous_propulsion_publisher.git
+	branch = develop
 [submodule "src/nautonomous_sensor_imu_razor"]
 	path = src/nautonomous_sensor_imu_razor
-	url = https://github.com/KristofRobot/razor_imu_9dof
+	url = git@github.com:waternet/nautonomous_sensor_imu_razor.git
+	branch = develop
 [submodule "src/nautonomous_sensor_scan_velodyne"]
 	path = src/nautonomous_sensor_scan_velodyne
-	url = git@github.com:KumarRobotics/velodyne_puck.git
+	url = https://github.com/KumarRobotics/velodyne_puck.git
 [submodule "src/nautonomous_sensor_gps_ublox"]
 	path = src/nautonomous_sensor_gps_ublox
 	url = git@github.com:KumarRobotics/ublox.git
+[submodule "src/nautonomous_graph_vaarkaart"]
+	path = src/nautonomous_graph_vaarkaart
+	url = git@github.com:DaanZ/nautonomous_graph_vaarkaart.git
+[submodule "src/nautonomous_search_astar"]
+	path = src/nautonomous_search_astar
+	url = https://github.com/waternet/nautonomous_search_astar.git
+[submodule "src/nautonomous_msgs_authentication"]
+	path = src/nautonomous_msgs_authentication
+	url = git@github.com:waternet/nautonomous_msgs_authentication
+
