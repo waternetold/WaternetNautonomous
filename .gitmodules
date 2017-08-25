@@ -71,3 +71,6 @@
 	path = src/nautonomous_msgs_authentication
 	url = git@github.com:waternet/nautonomous_msgs_authentication
 
+[submodule "src/nautonomous_sensor_gps_ublox"]
+	path = src/nautonomous_sensor_gps_ublox
+	url = https://github.com/waternet/nautonomous_sensor_gps_ublox.git
