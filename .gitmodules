@@ -73,4 +73,10 @@
 [submodule "src/nautonomous_msgs_authentication"]
 	path = src/nautonomous_msgs_authentication
 	url = git@github.com:waternet/nautonomous_msgs_authentication
+<<<<<<< HEAD
 
+=======
+[submodule "src/nautonomous_obstacle_detection"]
+	path = src/nautonomous_obstacle_detection
+	url = https://github.com/waternet/nautonomous_obstacle_detection.git
+>>>>>>> develop
