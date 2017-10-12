@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(nautonomous_System_Identification_Actuation)
+project(nautonomous_system_identification_actuation)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
